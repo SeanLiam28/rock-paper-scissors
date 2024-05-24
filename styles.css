@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(17, 39, 238) 50%, rgb(255, 255, 255) 50%);
+}
+
+.container {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    background-image: url("bg.jpg");
+    justify-content: center;
+    margin: 80px auto; /* Center horizontally */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 10);
+}
+
+h1 {
+    margin-top: 100px;
+    font-size: 3.5rem;
+    color: rgb(238, 255, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.choices {
+    margin-bottom: 30px;
+}
+
+.choices button {
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: skyblue;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.choices button:hover {
+    background-color: rgb(135, 206, 235);
+}
+
+#playerDisplay, #computerDisplay {
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#resultDisplay {
+    font-size: 2.5rem;
+    margin: 30px 0;
+    
+ 
+}
+
+.greenText, #playerScoreDisplay {
+    color: yellow;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.redText, #computerScoreDisplay {
+    color: rgb(238, 238, 238);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.scoreDisplay{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
